@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/internal"
-	sync_internal "github.com/ThreeDotsLabs/watermill/pubsub/sync"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/internal"
+	sync_internal "github.com/sllt/watermill/pubsub/sync"
 )
 
 var (

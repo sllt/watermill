@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-	"github.com/ThreeDotsLabs/watermill/components/requestreply"
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
 	"github.com/google/uuid"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/components/cqrs"
+	"github.com/sllt/watermill/components/requestreply"
+	"github.com/sllt/watermill/message"
+	"github.com/sllt/watermill/pubsub/gochannel"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

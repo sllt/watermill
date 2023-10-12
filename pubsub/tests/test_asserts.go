@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill/message"
 	"github.com/stretchr/testify/assert"
 )
 

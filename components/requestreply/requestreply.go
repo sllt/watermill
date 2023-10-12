@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill/message"
 )
 
 // NoResult is a result type for commands that don't have result.

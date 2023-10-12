@@ -11,12 +11,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/internal"
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/message/subscriber"
-	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
-	"github.com/ThreeDotsLabs/watermill/pubsub/tests"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/internal"
+	"github.com/sllt/watermill/message"
+	"github.com/sllt/watermill/message/subscriber"
+	"github.com/sllt/watermill/pubsub/gochannel"
+	"github.com/sllt/watermill/pubsub/tests"
 )
 
 func TestRouter_functional(t *testing.T) {

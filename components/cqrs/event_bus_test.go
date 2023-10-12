@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/components/cqrs"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

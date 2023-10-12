@@ -4,9 +4,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/hashicorp/go-multierror"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/message"
 )
 
 // Constructor is a function that creates a subscriber.

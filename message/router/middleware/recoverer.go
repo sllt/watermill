@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"runtime/debug"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/message"
 )
 
 // RecoveredPanicError holds the recovered panic's error along with the stacktrace.

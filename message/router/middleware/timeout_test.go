@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/message/router/middleware"
+	"github.com/sllt/watermill/message"
+	"github.com/sllt/watermill/message/router/middleware"
 )
 
 func TestTimeout(t *testing.T) {

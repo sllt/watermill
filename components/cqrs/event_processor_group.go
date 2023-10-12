@@ -4,9 +4,9 @@ import (
 	stdErrors "errors"
 	"fmt"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/message"
 )
 
 type EventGroupProcessorConfig struct {

@@ -11,11 +11,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
-	"github.com/ThreeDotsLabs/watermill/message/subscriber"
-	"github.com/ThreeDotsLabs/watermill/pubsub/gochannel"
-	"github.com/ThreeDotsLabs/watermill/pubsub/tests"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/message"
+	"github.com/sllt/watermill/message/subscriber"
+	"github.com/sllt/watermill/pubsub/gochannel"
+	"github.com/sllt/watermill/pubsub/tests"
 )
 
 func createPersistentPubSub(t *testing.T) (message.Publisher, message.Subscriber) {

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill/message"
 	"github.com/sony/gobreaker"
 )
 

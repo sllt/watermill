@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill/message"
 )
 
 // Duplicator is processing messages twice, to ensure that the endpoint is idempotent.

@@ -3,9 +3,9 @@ package requestreply
 import (
 	"encoding/json"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/message"
 )
 
 type BackendPubsubMarshaler[Result any] interface {

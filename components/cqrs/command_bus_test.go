@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/message"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
+	"github.com/sllt/watermill/components/cqrs"
 )
 
 func TestCommandBusConfig_Validate(t *testing.T) {

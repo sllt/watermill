@@ -1,8 +1,8 @@
 package forwarder
 
 import (
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/message"
 )
 
 type PublisherConfig struct {

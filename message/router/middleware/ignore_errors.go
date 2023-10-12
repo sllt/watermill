@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/message"
 )
 
 // IgnoreErrors provides a middleware that makes the handler ignore some explicitly whitelisted errors.

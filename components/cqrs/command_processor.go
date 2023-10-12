@@ -6,8 +6,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/message"
 )
 
 type CommandProcessorConfig struct {

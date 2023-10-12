@@ -3,8 +3,8 @@ package middleware
 import (
 	"math/rand"
 
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/message"
 )
 
 func shouldFail(probability float32) bool {

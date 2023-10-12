@@ -3,8 +3,8 @@ package cqrs
 import (
 	"reflect"
 
-	"github.com/ThreeDotsLabs/watermill"
-	"github.com/ThreeDotsLabs/watermill/message"
+	"github.com/sllt/watermill"
+	"github.com/sllt/watermill/message"
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/pkg/errors"

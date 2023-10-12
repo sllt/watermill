@@ -3,9 +3,9 @@ package requestreply
 import (
 	"context"
 
-	"github.com/ThreeDotsLabs/watermill/components/cqrs"
-	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/pkg/errors"
+	"github.com/sllt/watermill/components/cqrs"
+	"github.com/sllt/watermill/message"
 )
 
 // NewCommandHandler creates a new CommandHandler which supports the request-reply pattern.
