@@ -2,6 +2,7 @@ package gochannel
 
 import (
 	"context"
+	"path/filepath"
 	"sync"
 
 	"github.com/lithammer/shortuuid/v3"
@@ -269,9 +270,13 @@ func (g *GoChannel) removeSubscriber(topic string, toRemove *subscriber) {
 }
 
 func (g *GoChannel) topicSubscribers(topic string) []*subscriber {
-	subscribers, ok := g.subscribers[topic]
-	if !ok {
-		return nil
+	var subscribers []*subscriber
+	for t, subs := range g.subscribers {
+		match1, _ := filepath.Match(t, topic)
+		match2, _ := filepath.Match(topic, t)
+		if match1 || match2 {
+			subscribers = append(subscribers, subs...)
+		}
 	}
 
 	// let's do a copy to avoid race conditions and deadlocks due to lock

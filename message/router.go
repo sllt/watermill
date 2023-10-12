@@ -80,7 +80,7 @@ func (c *RouterConfig) setDefaults() {
 }
 
 // Validate returns Router configuration error, if any.
-func (c RouterConfig) Validate() error {
+func (c *RouterConfig) Validate() error {
 	return nil
 }
 
